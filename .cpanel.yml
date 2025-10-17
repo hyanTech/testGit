@@ -1,8 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/juse0593/public_html
+    - export DEPLOYPATH=/home/juse0593/apiTestGit
     - /bin/cp -R * $DEPLOYPATH/
     - cd $DEPLOYPATH
     - npm install
-    - npm start

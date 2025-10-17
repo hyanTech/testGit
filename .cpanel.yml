@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/juse0593/public_html
+    - /bin/cp -R * $DEPLOYPATH/
+    - cd $DEPLOYPATH
+    - npm install
+    - pm2 restart apiTestGit || echo "PM2 non configuré"

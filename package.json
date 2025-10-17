@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "",
+  "author": "hyan",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,8 @@
     "start": "node index.js",
     "build": "echo \"Build terminé\"",
     "clean": "echo \"Nettoyage terminé\""
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }

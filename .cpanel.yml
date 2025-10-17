@@ -5,4 +5,4 @@ deployment:
     - /bin/cp -R * $DEPLOYPATH/
     - cd $DEPLOYPATH
     - npm install
-    - pm2 restart apiTestGit || echo "PM2 non configuré"
+    - npm start
